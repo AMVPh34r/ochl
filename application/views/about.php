@@ -8,9 +8,11 @@
     <title>About - OCHL</title>
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <?php
+        echo link_tag('styles/default/css/bootstrap.css');
+        echo link_tag('styles/default/css/style.css');
+        echo link_tag('styles/default/font-awesome/css/font-awesome.min.css');
+    ?>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
