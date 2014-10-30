@@ -39,7 +39,7 @@
 */
 
 $route['default_controller'] = 'page';
-$route['404_override'] = '';
+$route['404_override'] = 'error/404';
 $route['(:any)'] = 'page/show/$1';
 
 
