@@ -1,3 +1,14 @@
+<?php
+// TODO migrate links to database
+$navbar_links = array(
+    'about' => 'About',
+    'services' => 'Services',
+    'calendar' => 'Calendar',
+    'contact' => 'Contact',
+    'blog' => 'Blog'
+);
+?>
+
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
@@ -13,21 +24,13 @@
         <!-- Nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <?php echo anchor('about', 'About'); ?>
-                </li>
-                <li>
-                    <?php echo anchor('services', 'Services'); ?>
-                </li>
-                <li>
-                    <?php echo anchor('calendar', 'Calendar'); ?>
-                </li>
-                <li>
-                    <?php echo anchor('contact', 'Contact'); ?>
-                </li>
-                <li>
-                    <?php echo anchor('blog', 'Blog'); ?>
-                </li>
+            <?php
+                $cur_page = uri_string(); // TODO account for sub-pages, only check first segment
+                // Iterate through navbar links, set active class if URI matches current page
+                foreach($navbar_links as $uri=>$label) {
+                    echo '<li'.($uri == $cur_page ? ' class="active"' : '').'>'.anchor($uri, $label).'</li>';
+                }
+            ?>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

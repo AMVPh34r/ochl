@@ -11,7 +11,9 @@
 </div>
 
 <!-- javascript -->
-<script src="<?php echo base_url().get_template();?>js/jquery-1.11.0.js"></script>
-<script src="<?php echo base_url().get_template();?>js/bootstrap.min.js"></script>
+<?php
+    echo load_js('jquery-1.11.0.js');
+    echo load_js('bootstrap.min.js');
+?>
 </body>
 </html>

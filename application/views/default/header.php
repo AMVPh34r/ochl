@@ -9,9 +9,9 @@
 
     <!-- CSS -->
     <?php
-        echo link_tag('styles/default/css/bootstrap.css');
-        echo link_tag('styles/default/css/style.css');
-        echo link_tag('styles/default/font-awesome/css/font-awesome.min.css');
+        echo load_css('bootstrap.css');
+        echo load_css('style.css');
+        echo load_css('font-awesome/css/font-awesome.min.css');
     ?>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

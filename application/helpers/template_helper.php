@@ -8,18 +8,42 @@ if (!function_exists('load_template')) {
 	* @param  array  $data An array of data to pass to the view.
 	* @param  string $template The name of the template to load.
 	*/
-	function load_template($view, $data=NULL, $template=NULL) {
+	function load_template($view, $data=NULL, $template='default') {
 		$CI =& get_instance();
 
-		if (!$template)
-			$template = 'default';
-		else
-			$template = strtolower($template);
-		if (!$data)
-			$data = array();
+		$template = strtolower($template);
+		if (!$data) $data = array();
 		$CI->load->view($template.'/header', $data);
 		$CI->load->view($template.'/navbar', $data);
 		$CI->load->view($template.'/pages/'.$view, $data);
 		$CI->load->view($template.'/footer', $data);
+	}
+}
+
+if (!function_exists('load_css')) {
+	/**
+	* Returns the HTML to load a given CSS file for a given template.
+	*
+	* @param  string $file The name of the CSS file to load.
+	* @param  string $template The name of the template to load.
+	*/
+	function load_css($file, $template='default') {
+		$CI =& get_instance();
+
+		return link_tag('styles/'.$template.'/css/'.$file);
+	}
+}
+
+if (!function_exists('load_js')) {
+	/**
+	* Returns the HTML to load a given Javascript file for a given template.
+	*
+	* @param  string $file The name of the .js file to load.
+	* @param  string $template The name of the template to load.
+	*/
+	function load_js($file, $template='default') {
+		$CI =& get_instance();
+
+		return '<script src="'.base_url().'styles/'.$template.'/js/'.$file.'"></script>';
 	}
 }
