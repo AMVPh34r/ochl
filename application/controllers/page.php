@@ -3,11 +3,13 @@
 class Page extends CI_Controller {
 
 	public function index() {
-		$this->load->view('home');
+		$data['page_title'] = "Home";
+		load_template('home', $data);
 	}
 
 	public function show($page) {
-		$this->load->view($page);
+		$data['page_title'] = ucfirst($page);
+		load_template($page, $data);
 	}
 }
 
