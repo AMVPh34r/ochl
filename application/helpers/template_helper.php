@@ -1,5 +1,18 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
+if (!function_exists('view_exists')) {
+	/**
+	* Checks to see if the requested view exists for the given template.
+	* 
+	* @param  string $view The name of the view to check for.
+	* @param  string $template The name of the template to check.
+	* @return bool TRUE if the file exists, FALSE otherwise.
+	*/
+	function view_exists($view, $template='default') {
+		return is_file(APPPATH.'views/'.$template.'/pages/'.$view.EXT);
+	}
+}
+
 if (!function_exists('load_template')) {
 	/**
 	* Loads the requested view along with template files

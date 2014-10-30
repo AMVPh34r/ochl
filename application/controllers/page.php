@@ -9,7 +9,12 @@ class Page extends CI_Controller {
 
 	public function show($page) {
 		$data['page_title'] = ucfirst($page);
-		load_template($page, $data);
+		if (view_exists($page))
+			load_template($page, $data);
+		else {
+			$data['page_title'] = '404 Error';
+			load_template('error/404', $data);
+		}
 	}
 }
 
