@@ -26,11 +26,18 @@
         <div class="col-md-8">
             <h3>Send us a Message</h3>
             <form name="sentMessage" id="contactForm" novalidate>
-                <div class="control-group form-group">
+                <div class="control-group form-group row">
                     <div class="controls">
-                        <label>Full Name:</label>
-                        <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                        <p class="help-block"></p>
+                        <div class="col-md-6">
+                            <label>First Name:</label>
+                            <input type="text" class="form-control" id="fname" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Last Name:</label>
+                            <input type="text" class="form-control" id="lname" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
                     </div>
                 </div>
                 <div class="control-group form-group">
@@ -43,6 +50,17 @@
                     <div class="controls">
                         <label>Email Address:</label>
                         <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                    </div>
+                </div>
+                <div class="control-group form-group">
+                    <div class="controls">
+                        <label>Subject:</label>
+                        <select class="form-control" id="subject" required data-validation-required-message="Please select a subject.">
+                            <option value="" disabled selected>--Please select a subject--</option>
+                            <option value="join">I'm interested in joining</option>
+                            <option value="question">I have a question about the group</option>
+                            <option value="suggestion">I have a suggestion for the group</option>
+                        </select>
                     </div>
                 </div>
                 <div class="control-group form-group">

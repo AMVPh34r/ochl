@@ -10,9 +10,11 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $("input#name").val();
+            var fname = $("input#fname").val();
+            var lname = $("input#lname").val();
             var phone = $("input#phone").val();
             var email = $("input#email").val();
+            var subject = $("input#subject").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -23,9 +25,11 @@ $(function() {
                 url: "./bin/contact_submit.php", // php script to call to submit form
                 type: "POST",
                 data: {
-                    name: name,
+                    fname: fname,
+                    lname: lname,
                     phone: phone,
                     email: email,
+                    subject: subject,
                     message: message
                 },
                 cache: false,
