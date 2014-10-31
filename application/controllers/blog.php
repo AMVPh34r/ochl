@@ -10,9 +10,9 @@ class Blog extends CI_Controller {
 
 	public function show($id) {
 		$data['page_title'] = "Blog Post";
-		if (view_exists('blog/'.$id))
-			load_template('blog/'.$id, $data);
-		else {
+		if (view_exists('blog/'.$id)) {
+			load_template(array('blog/'.$id, 'blog-sidebar'), $data);
+		} else {
 			$data['page_title'] = '404 Error';
 			load_template('error/404', $data);
 		}

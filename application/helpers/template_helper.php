@@ -28,7 +28,12 @@ if (!function_exists('load_template')) {
 		if (!$data) $data = array();
 		$CI->load->view($template.'/header', $data);
 		$CI->load->view($template.'/navbar', $data);
-		$CI->load->view($template.'/pages/'.$view, $data);
+		if (is_array($view)) {
+			foreach($view as $v) {
+				$CI->load->view($template.'/pages/'.$v, $data);
+			}
+		} else
+			$CI->load->view($template.'/pages/'.$view, $data);
 		$CI->load->view($template.'/footer', $data);
 	}
 }
