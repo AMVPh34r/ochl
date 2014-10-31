@@ -1,3 +1,8 @@
+<?php
+    $GLOBALS['js_load'][] = 'jqBootstrapValidation.js';
+    $GLOBALS['js_load'][] = 'contact.js';
+?>
+
 <!-- Page Content -->
 <div class="container">
     <!-- Page Heading/Breadcrumbs -->

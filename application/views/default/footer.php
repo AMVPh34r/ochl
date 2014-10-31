@@ -12,8 +12,9 @@
 
 <!-- javascript -->
 <?php
-    echo load_js('jquery-1.11.0.js');
-    echo load_js('bootstrap.min.js');
+    foreach($GLOBALS['js_load'] as $file) {
+        echo load_js($file);
+    }
 ?>
 </body>
 </html>

@@ -1,3 +1,16 @@
+<?php
+    $GLOBALS['css_load'] = array(
+        'bootstrap.css',
+        'style.css',
+        'font-awesome/css/font-awesome.min.css'
+    );
+
+    $GLOBALS['js_load'] = array(
+        'jquery-1.11.0.js',
+        'bootstrap.min.js'
+    );
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +22,9 @@
 
     <!-- CSS -->
     <?php
-        echo load_css('bootstrap.css');
-        echo load_css('style.css');
-        echo load_css('font-awesome/css/font-awesome.min.css');
+        foreach($GLOBALS['css_load'] as $file) {
+            echo load_css($file);
+        }
     ?>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
