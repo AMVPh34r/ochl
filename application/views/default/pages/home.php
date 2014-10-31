@@ -40,6 +40,28 @@
 
 <!-- Page Content -->
 <div class="container">
+    <!-- Features Section -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Welcome to the Organization for Computer Hardware Learning</h2>
+        </div>
+        <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
+            <ul>
+                <li><strong>List item 1</strong>
+                </li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+        </div>
+    </div>
+    <!-- /.row -->
+
     <!-- Marketing Icons Section -->
     <div class="row">
         <div class="col-lg-12">
@@ -79,28 +101,6 @@
                     <a href="#" class="btn btn-default">Learn More</a>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- /.row -->
-
-    <!-- Features Section -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h2 class="page-header">Header</h2>
-        </div>
-        <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
-            <ul>
-                <li><strong>List item 1</strong>
-                </li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-                <li>List item 4</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
-        <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
         </div>
     </div>
     <!-- /.row -->
