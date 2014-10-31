@@ -13,5 +13,5 @@ class Error extends CI_Controller {
 	}
 }
 
-/* End of file page.php */
-/* Location: ./application/controllers/page.php */
+/* End of file error.php */
+/* Location: ./application/controllers/error.php */
