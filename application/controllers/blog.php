@@ -5,7 +5,7 @@ class Blog extends CI_Controller {
 	// TODO rework all of this for database
 	public function index() {
 		$data['page_title'] = "Blog";
-		load_template('blog', $data);
+		load_template(array('blog', 'blog-sidebar'), $data);
 	}
 
 	public function show($id) {
