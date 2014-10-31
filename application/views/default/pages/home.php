@@ -46,15 +46,14 @@
             <h2 class="page-header">Welcome to the Organization for Computer Hardware Learning</h2>
         </div>
         <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
             <ul>
-                <li><strong>List item 1</strong>
-                </li>
-                <li>List item 2</li>
-                <li>List item 3</li>
-                <li>List item 4</li>
+                <li>Weekly meetings as a group, providing both tutorials for all group members on interacting with hardware and helping them learn more.</li>
+                <li>Regular special events which include guest speakers from companies such as Intel and Nvidia.</li>
+                <li>“Build Sessions” in which members are tasked with building a computer and getting it running successfully.</li>
+                <li>A website offering detailed information about our organization, as well as regular news updates regarding the latest hardware.</li>
             </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
         </div>
         <div class="col-md-6">
             <img class="img-responsive" src="http://placehold.it/700x450" alt="">
