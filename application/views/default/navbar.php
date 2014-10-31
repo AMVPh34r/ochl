@@ -1,11 +1,11 @@
 <?php
 // TODO migrate links to database
 $navbar_links = array(
-    'about' => 'About',
+    'blog' => 'Blog',
     'services' => 'Services',
     'calendar' => 'Calendar',
-    'contact' => 'Contact',
-    'blog' => 'Blog'
+    'about' => 'About',
+    'contact' => 'Contact'
 );
 ?>
 
