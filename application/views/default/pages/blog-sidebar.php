@@ -46,8 +46,8 @@
 
             <!-- Announcement -->
             <div class="well">
-                <h4></h4>
-                <p>We have officially been sponsored by Intel, and will be moving off campus. <a href="http://ochl-dev.arschaeffer.com/blog/4"> Read more here </a></p>
+                <h4>Announcements</h4>
+                <p>We have officially been sponsored by Intel, and will be moving off campus. <a href="http://ochl-dev.arschaeffer.com/blog/4"> Click here to read more. </a></p>
             </div>
 
         </div>
