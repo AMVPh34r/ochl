@@ -1,13 +1,13 @@
 <?php
 $post = array(
-	'title' => "Welcome to OCHL!",
-	'author' => "Alex Schaeffer",
-	'date' => "September 17, 2014",
-	'time' => "10:44 AM",
-	'image' => "1.png",
-	'lead' => "Welcome to the home of the Organization for Computer Hardware Learning!",
-	'body' => "<p>If you're reading this, you are likely a student of UNC Charlotte, and have an interest in learning more about computer hardware, and our organization aims to provide an environment for you to do just that. If you’d like to learn more about us or get in contact with us, click the \"About Us\" link.</p>
-            	<p>Currently group meetings are scheduled for every Wednesday at 6:30 PM in Atkins 120, with our first interest meeting being 9/17. Anyone with a passing interest in our group is welcome to show up. We will be going over our club schedule for the semester, as well as answering any questions you may have. Food and drinks will be provided. We hope to see you there!</p>"
+	'title' => "First Meeting a Success",
+	'author' => "William McKinley",
+	'date' => "September 19, 2014",
+	'time' => "10:27 AM",
+	'image' => "",
+	'lead' => "",
+	'body' => "<p>Hello from the Organization for Computer Hardware Learning! We had our first meeting Wednesday and it was a great success, thanks to all that attended. We explained in greater detail what out purpose is and what we will be doing over the course of the semester, and answered some questions. We are currently working on our logo and website, so expect to hear more about that in the future.</p>
+            	<p>Remember Meetings are every Wednesday at 6:30, in Adkins 120.</p>"
 );
 ?>
 

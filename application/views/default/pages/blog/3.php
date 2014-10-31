@@ -1,13 +1,12 @@
 <?php
 $post = array(
-	'title' => "Welcome to OCHL!",
+	'title' => "Expanding",
 	'author' => "Alex Schaeffer",
-	'date' => "September 17, 2014",
-	'time' => "10:44 AM",
-	'image' => "1.png",
-	'lead' => "Welcome to the home of the Organization for Computer Hardware Learning!",
-	'body' => "<p>If you're reading this, you are likely a student of UNC Charlotte, and have an interest in learning more about computer hardware, and our organization aims to provide an environment for you to do just that. If you’d like to learn more about us or get in contact with us, click the \"About Us\" link.</p>
-            	<p>Currently group meetings are scheduled for every Wednesday at 6:30 PM in Atkins 120, with our first interest meeting being 9/17. Anyone with a passing interest in our group is welcome to show up. We will be going over our club schedule for the semester, as well as answering any questions you may have. Food and drinks will be provided. We hope to see you there!</p>"
+	'date' => "September 26, 2014",
+	'time' => "10:46 AM",
+	'image' => "",
+	'lead' => "",
+	'body' => "<p>Big news this week: we are proud to announce that due to our recent success and popularity, we have received attention from interested individuals in surrounding areas. Because of this, we are happy to say that we are planning on expanding past the scope of UNCC's campus. Over the next few weeks we will be focusing on making our organization open to the general public, where anyone will be free to join. If you are interested in becoming a part of our group, you can let us know via email. We hope to hear from you soon!</p>"
 );
 ?>
 
