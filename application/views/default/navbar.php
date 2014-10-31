@@ -1,6 +1,7 @@
 <?php
 // TODO migrate links to database
 $navbar_links = array(
+    'home' => 'Home',
     'blog' => 'Blog',
     'services' => 'Services',
     'calendar' => 'Calendar',
@@ -26,6 +27,8 @@ $navbar_links = array(
             <ul class="nav navbar-nav navbar-right">
             <?php
                 $cur_page = uri_string(); // TODO account for sub-pages, only check first segment
+                if ($cur_page == '')
+                    $cur_page = 'home';
                 // Iterate through navbar links, set active class if URI matches current page
                 foreach($navbar_links as $uri=>$label) {
                     echo '<li'.($uri == $cur_page ? ' class="active"' : '').'>'.anchor($uri, $label).'</li>';
