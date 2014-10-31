@@ -40,7 +40,7 @@
                     <h3>Alex Schaeffer<br>
                         <small>Co-Founder</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Junior in Computer Science. Worked as a developer for TheraSim over the summer. TA for ITIS 2300.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -59,7 +59,7 @@
                     <h3>William McKinley<br>
                         <small>Co-Founder</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Sophomore in Computer Science. Worked IT at Greencap Financial during the summer. </p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -75,10 +75,11 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
-                    <h3>John Smith<br>
-                        <small>Job Title</small>
+                    <h3>Cullen Jones <br>
+                        <small>Treasurer</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Junior in Computer Science. Interned with IBM. TA for
+			 ITCS 1213.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -94,10 +95,10 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
-                    <h3>John Smith<br>
-                        <small>Job Title</small>
+                    <h3>Evan Messenger<br>
+                        <small>Officer</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Sophomore in Computer Science. Currently working at Custom Computer Solutions.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -113,10 +114,10 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
-                    <h3>John Smith<br>
-                        <small>Job Title</small>
+                    <h3>Bryan Vaughn<br>
+                        <small>Officer</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Junior in Computer Science. Worked at Custom Computer Solutions over the summer. TA for ITCS 1213.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -132,10 +133,10 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
-                    <h3>John Smith<br>
-                        <small>Job Title</small>
+                    <h3>James Murphy<br>
+                        <small>Secretary</small>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+                    <p>Junior in Computer Science. Interned with Bank of America over the summer.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
