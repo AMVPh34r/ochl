@@ -56,7 +56,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit:</p>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            <?php echo img(array('src'=>'files/img/static/hardware_img_2.jpg', 'class'=>'img-responsive')); ?>
         </div>
     </div>
     <!-- /.row -->
