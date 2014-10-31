@@ -44,14 +44,14 @@
                 <!-- /.row -->
             </div>
 
-            <!-- Side Widget Well -->
+            <!-- Announcement -->
             <div class="well">
-                <h4>Side Widget Well</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                <h4></h4>
+                <p>We have officially been sponsored by Intel, and will be moving off campus. <a href="http://ochl-dev.arschaeffer.com/blog/4"> Read more here </a></p>
             </div>
 
         </div>
     </div>
     <!-- /.row -->
 </div>
-<!-- /.container -->
+<!-- /.container —->
