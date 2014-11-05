@@ -54,12 +54,12 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-                <?php echo img(array('src'=>'files/img/will.jpg', 'class'=>'img-responsive')); ?>
+                <?php echo img(array('src'=>'files/img/static/will.jpg', 'class'=>'img-responsive')); ?>
                 <div class="caption">
                     <h3>William McKinley<br>
                         <small>Co-Founder</small>
                     </h3>
-                    <p>Sophomore in Computer . Worked IT at Greencap Financial during the summer. </p>
+                    <p>Sophomore in Computer Science. Worked IT at Greencap Financial during the summer. </p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
@@ -73,9 +73,9 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                
                 <div class="caption">
-                    <h3>Cullen Jones <br>
+                    <h3>Cullen  <br>
                         <small>Treasurer</small>
                     </h3>
                     <p>Junior in Computer Science. Interned with IBM. TA for
