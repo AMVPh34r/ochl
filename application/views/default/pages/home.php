@@ -68,10 +68,10 @@
     <div class="well">
         <div class="row">
             <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                <p>Interested in joining the orgnization? Great, we'd love to have you! Simply click the button to the right to be taken to our registration form.</p>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-lg btn-default btn-block" href="#">Button</a>
+                <a class="btn btn-lg btn-default btn-block" href="/contact">Register</a>
             </div>
         </div>
     </div>
