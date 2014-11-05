@@ -4,7 +4,7 @@ $navbar_links = array(
     'home' => 'Home',
     'blog' => 'Blog',
     'services' => 'Services',
-    'calendar' => 'Calendar',
+    // 'calendar' => 'Calendar',
     'about' => 'About',
     'contact' => 'Contact'
 );
