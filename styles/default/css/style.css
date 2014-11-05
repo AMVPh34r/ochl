@@ -33,6 +33,12 @@ header.carousel .fill {
     background-size: cover;
 }
 
+header.carousel .fill .slideshow-img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* 404 Page Styles */
 .error-404 {
     font-size: 100px;
