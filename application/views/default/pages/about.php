@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <?php echo img(array('src'=>'files/img/static/alex.png', 'class'=>'img-responsive')); ?>
                 <div class="caption">
                     <h3>Alex Schaeffer<br>
                         <small>Co-Founder</small>
@@ -78,8 +78,7 @@
                     <h3>Cullen  <br>
                         <small>Treasurer</small>
                     </h3>
-                    <p>Junior in Computer Science. Interned with IBM. TA for
-			 ITCS 1213.</p>
+                    <p>Junior in Computer Science. Interned with IBM. TA for ITCS 1213.</p>
                     <ul class="list-inline">
                         <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
                         </li>
