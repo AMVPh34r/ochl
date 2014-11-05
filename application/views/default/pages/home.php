@@ -61,8 +61,7 @@
     </div>
     <!-- /.row -->
 
-    <!-- Marketing Icons Section -->
-
+    <hr />
 
     <!-- Lower section -->
     <div class="well">
