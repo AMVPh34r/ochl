@@ -54,7 +54,7 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                <img class="img-responsive" src=C:\wamp\www\ochl\files\img\will alt="">
                 <div class="caption">
                     <h3>William McKinley<br>
                         <small>Co-Founder</small>
