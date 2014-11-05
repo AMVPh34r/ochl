@@ -16,13 +16,13 @@
                     <!-- <h2>Caption 1</h2> -->
                 </div>
             </div>
-            <div class="item parallax-group">
+            <div class="item">
                 <div class="fill"><?php echo img(array('src'=>'files/img/static/hardware_img_5.jpg', 'class'=>'img-responsive vert-align')); ?></div>
                 <div class="carousel-caption">
                     <!-- <h2>Caption 2</h2> -->
                 </div>
             </div>
-            <div class="item parallax-group">
+            <div class="item">
                 <div class="fill"><?php echo img(array('src'=>'files/img/static/hardware_img_3.jpg', 'class'=>'img-responsive vert-align')); ?></div>
                 <div class="carousel-caption">
                     <!-- <h2>Caption 3</h2> -->

@@ -41,6 +41,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+    overflow:visible;
 }
 
 .parallax-layer-base {
@@ -49,8 +50,8 @@ body {
 }
 
 .parallax-layer-back {
-    -webkit-transform: translateZ(-300px) translateY(-175px) scale(2);
-    transform: translateZ(-300px) translateY(-175px) scale(2);
+    -webkit-transform: translateZ(-300px) scale(2);
+    transform: translateZ(-300px) scale(2);
 }
 
 /* Home Page Carousel */
