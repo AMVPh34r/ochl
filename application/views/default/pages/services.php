@@ -82,8 +82,8 @@
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Service Four</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <h4>Learn Stuff</h4>
+                    <p>Our goal is for anyone who comes to a meeting, to learn something new and exciting.</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                 </li>
                 <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-support"></i> Build Sessions</a>
                 </li>
-                <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Service Four</a>
+                <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Learn Stuff</a>
                 </li>
             </ul>
 
@@ -125,9 +125,9 @@
                     <p></p>
                 </div>
                 <div class="tab-pane fade" id="service-four">
-                    <h4>Service Four</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                    <h4>Learn Stuff</h4>
+                    <p>It's out goal, no matter how much you know about computers, if you come to an OCHL meeting, you'll walk away from it with something you didn't know before. Because we have so many leaders in OCHL, we can talk with new members about the basics, and others about new advances or products.</p>
+                    <p></p>
                 </div>
             </div>
 
