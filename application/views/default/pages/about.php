@@ -73,7 +73,7 @@
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
-                
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
                     <h3>Cullen  <br>
                         <small>Treasurer</small>
