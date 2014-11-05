@@ -15,6 +15,12 @@ body {
     opacity: 0.8;
 }
 
+.vert-align {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* Home Page Carousel */
 header.carousel {
     height: 50%;
@@ -33,10 +39,13 @@ header.carousel .fill {
     background-size: cover;
 }
 
-header.carousel .fill .slideshow-img {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+/*header.carousel .fill img {
+    display:none;
+}*/
+
+header.carousel .fill .loader {
+    margin:auto;
+    text-align:center;
 }
 
 /* 404 Page Styles */
