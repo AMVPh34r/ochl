@@ -45,7 +45,7 @@
             <div id="tab-content" class="tab-content">
                 <div class="tab-pane fade active in" id="service-one">
                 <h4>Learn Stuff</h4>
-                    <p>It's out goal, no matter how much you know about computers, if you come to an OCHL meeting, you'll walk away from it with something you didn't know before. Because we have so many leaders in OCHL, we can talk with new members about the basics, and others about new advances or products.</p>
+                    <p>It's our goal, no matter how much you know about computers, if you come to an OCHL meeting, you'll walk away from it with something you didn't know before. Because we have so many leaders in OCHL, we can talk with new members about the basics, and others about new advances or products.</p>
                     <p></p>
                 </div>
                 <div class="tab-pane fade" id="service-two">
