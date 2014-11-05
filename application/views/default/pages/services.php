@@ -45,6 +45,14 @@
             <div id="tab-content" class="tab-content">
                 <div class="tab-pane fade active in" id="service-one">
                     <p>It's our goal, no matter how much you know about computers, if you come to an OCHL meeting, you'll walk away from it with something you didn't know before. Because we have so many leaders in OCHL, we can talk with new members about the basics, and others about new advances or products.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>Want a taste? Here's a quick video outlining the specifics in differences between Intel corporation's iX processors.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <iframe width="560" height="315" src="//www.youtube.com/embed/GLSPub4ydiM" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="service-two">
                     <p>Our weekly meetings are well suited for both students who are new to hardware, and veterans. We go over the basics of what hardware does, and talk about new parts that are on the market.</p>
