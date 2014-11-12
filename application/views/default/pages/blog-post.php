@@ -8,8 +8,8 @@
                 </small>
             </h1>
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><?php echo anchor('home', 'Home'); ?></li>
+                <li><?php echo anchor('blog', 'Blog'); ?></li>
                 <li class="active">Post</li>
             </ol>
         </div>
