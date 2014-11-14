@@ -7,8 +7,8 @@ $contents = array(
     'RAM',
     'Graphics Card',
     'Cooling',
-    'Case',
     'Power Supply',
+    'Case',
     'Prehipherals'
 );
 ?>
