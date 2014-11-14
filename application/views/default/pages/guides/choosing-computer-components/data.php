@@ -6,8 +6,8 @@ $contents = array(
     'Motherboard',
     'RAM',
     'Graphics Card',
-    'Case',
     'Cooling',
+    'Case',
     'Power Supply',
     'Prehipherals'
 );

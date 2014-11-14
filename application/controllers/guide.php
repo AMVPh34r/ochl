@@ -3,12 +3,13 @@
 class Guide extends CI_Controller {
 
 	public function index() {
-		$data['page_title'] = "Home";
+		$data['page_title'] = "Guides";
 		load_template('guides/home', $data);
 	}
 
 	public function show($guide, $page=1) {
-		$data['page_title'] = ucfirst($guide);
+		$data['page_title'] = ucfirst(str_replace("-", " ", $guide)).
+			' - Page '.$page;
 		if (view_exists('guides/'.$guide.'/'.$page))
 			load_template('guides/'.$guide.'/'.$page, $data);
 		else {
