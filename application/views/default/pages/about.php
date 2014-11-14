@@ -33,117 +33,121 @@
         <div class="col-lg-12">
             <h2 class="page-header">Our Team</h2>
         </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <?php echo img(array('src'=>'files/img/static/alex.png', 'class'=>'img-responsive')); ?>
-                <div class="caption">
-                    <h3>Alex Schaeffer<br>
-                        <small>Co-Founder</small>
-                    </h3>
-                    <p>Junior in Computer Science. Worked as a developer for TheraSim over the summer. TA for ITIS 2300.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <?php echo img(array('src'=>'files/img/static/alex.png', 'class'=>'img-responsive')); ?>
+                    <div class="caption">
+                        <h3>Alex Schaeffer<br>
+                            <small>Co-Founder</small>
+                        </h3>
+                        <p>Junior in Computer Science. Worked as a developer for TheraSim over the summer. TA for ITIS 2300.</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <?php echo img(array('src'=>'files/img/static/will.jpg', 'class'=>'img-responsive')); ?>
+                    <div class="caption">
+                        <h3>William McKinley<br>
+                            <small>Co-Founder</small>
+                        </h3>
+                        <p>Sophomore in Computer Science. Worked IT at Greencap Financial during the summer. </p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <div class="caption">
+                        <h3>Cullen  <br>
+                            <small>Treasurer</small>
+                        </h3>
+                        <p>Junior in Computer Science. Interned with IBM. TA for ITCS 1213.</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <?php echo img(array('src'=>'files/img/static/will.jpg', 'class'=>'img-responsive')); ?>
-                <div class="caption">
-                    <h3>William McKinley<br>
-                        <small>Co-Founder</small>
-                    </h3>
-                    <p>Sophomore in Computer Science. Worked IT at Greencap Financial during the summer. </p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <div class="caption">
+                        <h3>Evan Messenger<br>
+                            <small>Officer</small>
+                        </h3>
+                        <p>Sophomore in Computer Science. Currently working at Custom Computer Solutions.</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <div class="caption">
-                    <h3>Cullen  <br>
-                        <small>Treasurer</small>
-                    </h3>
-                    <p>Junior in Computer Science. Interned with IBM. TA for ITCS 1213.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <div class="caption">
+                        <h3>Bryan Vaughn<br>
+                            <small>Officer</small>
+                        </h3>
+                        <p>Junior in Computer Science. Worked at Custom Computer Solutions over the summer. TA for ITCS 1213.</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <div class="caption">
-                    <h3>Evan Messenger<br>
-                        <small>Officer</small>
-                    </h3>
-                    <p>Sophomore in Computer Science. Currently working at Custom Computer Solutions.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <div class="caption">
-                    <h3>Bryan Vaughn<br>
-                        <small>Officer</small>
-                    </h3>
-                    <p>Junior in Computer Science. Worked at Custom Computer Solutions over the summer. TA for ITCS 1213.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="thumbnail">
-                <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-                <div class="caption">
-                    <h3>James Murphy<br>
-                        <small>Secretary</small>
-                    </h3>
-                    <p>Junior in Computer Science. Interned with Bank of America over the summer.</p>
-                    <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                        </li>
-                    </ul>
+            <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+                    <div class="caption">
+                        <h3>James Murphy<br>
+                            <small>Secretary</small>
+                        </h3>
+                        <p>Junior in Computer Science. Interned with Bank of America over the summer.</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
