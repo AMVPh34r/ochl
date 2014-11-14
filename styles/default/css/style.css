@@ -7,6 +7,16 @@ body {
     padding-top: 50px; /* Padding for .navbar-fixed-top.*/
 }
 
+#main-nav {
+    transition: box-shadow linear .25s;
+}
+
+#main-nav.affix {
+    top:0;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
+    transition: box-shadow linear .25s;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
