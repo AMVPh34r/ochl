@@ -3,6 +3,11 @@ $active = 7;
 
 include('data.php');
 include('header.php');
+
+$prev_page = $contents[5];
+$next_page = $contents[7];
+$prev_url = site_url('guides/'.$guide_uri.'/6');
+$next_url = site_url('guides/'.$guide_uri.'/8');
 ?>
     
 <h2>Page 7 Heading</h2>
