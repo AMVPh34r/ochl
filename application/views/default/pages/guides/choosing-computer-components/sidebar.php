@@ -1,5 +1,5 @@
 <!-- Sidebar Column -->
-<div class="col-md-3">
+<div id="guide-sidebar" class="col-md-3">
     <div class="list-group">
         <h3>Contents</h3>
         <?php
