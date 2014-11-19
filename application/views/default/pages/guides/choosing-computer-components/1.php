@@ -5,9 +5,9 @@ include('data.php');
 include('header.php');
 
 $prev_page = NULL;
-$next_page = $contents[1];
+$next_page = $contents[$active];
 $prev_url = NULL;
-$next_url = site_url('guides/'.$guide_uri.'/2');
+$next_url = site_url('guides/'.$guide_uri.'/'.($active+1));
 ?>
 
 <h2>Why Build a Computer?</h2>

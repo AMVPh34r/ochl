@@ -6,7 +6,7 @@ include('header.php');
 
 $prev_page = $contents[$active-2];
 $next_page = NULL;
-$prev_url = site_url('guides/'.$guide_uri.'/'.$active-1);
+$prev_url = site_url('guides/'.$guide_uri.'/'.($active-1));
 $next_url = NULL;
 ?>
     
