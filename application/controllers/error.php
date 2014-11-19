@@ -7,7 +7,7 @@ class Error extends CI_Controller {
 		load_template('error/unknown', $data);
 	}
 
-	public function show($code) {
+	public function show($code=404) {
 		$data['page_title'] = 'Error '.$code;
 		load_template('error/'.$code, $data);
 	}

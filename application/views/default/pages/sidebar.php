@@ -1,120 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Page - OCHL</title>
-
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">OCHL</a>
-            </div>
-            <!-- Nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="calendar.html">Calendar</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- Page Content -->
+<div class="container">
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Sidebar Page
+                <small>Subheading</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li class="active">Sidebar Page</li>
+            </ol>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Sidebar Page
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Sidebar Page</li>
-                </ol>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Content Row -->
-        <div class="row">
-            <!-- Sidebar Column -->
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="index.html" class="list-group-item">Home</a>
-                    <a href="about.html" class="list-group-item">About</a>
-                    <a href="services.html" class="list-group-item">Services</a>
-                    <a href="calendar.html" class="list-group-item">Calendar</a>
-                    <a href="contact.html" class="list-group-item">Contact</a>
-                    <a href="blog.html" class="list-group-item">Blog</a>
-                    <a href="full-width.html" class="list-group-item">Full Width Page</a>
-                    <a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
-                    <a href="faq.html" class="list-group-item">FAQ</a>
-                    <a href="404.html" class="list-group-item">404</a>
-                </div>
-            </div>
-            <!-- Content Column -->
-            <div class="col-md-9">
-                <h2>Section Heading</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr />
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Alex Schaeffer 2014</p>
-                </div>
-            </div>
-        </footer>
     </div>
-    <!-- /.container -->
+    <!-- /.row -->
 
-    <!-- javascript -->
-    <script src="js/jquery-1.11.0.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+    <!-- Content Row -->
+    <div class="row">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="index.html" class="list-group-item">Home</a>
+                <a href="about.html" class="list-group-item">About</a>
+                <a href="services.html" class="list-group-item">Services</a>
+                <a href="calendar.html" class="list-group-item">Calendar</a>
+                <a href="contact.html" class="list-group-item">Contact</a>
+                <a href="blog.html" class="list-group-item">Blog</a>
+                <a href="full-width.html" class="list-group-item">Full Width Page</a>
+                <a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
+                <a href="faq.html" class="list-group-item">FAQ</a>
+                <a href="404.html" class="list-group-item">404</a>
+            </div>
+        </div>
+        <!-- Content Column -->
+        <div class="col-md-9">
+            <h2>Section Heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>

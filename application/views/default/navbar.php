@@ -4,6 +4,7 @@ $navbar_links = array(
     'home' => 'Home',
     'blog' => 'Blog',
     'services' => 'Services',
+    'guides' => 'Guides',
     // 'calendar' => 'Calendar',
     'about' => 'About',
     'contact' => 'Contact'
@@ -11,7 +12,7 @@ $navbar_links = array(
 ?>
 
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
@@ -26,7 +27,10 @@ $navbar_links = array(
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
             <?php
-                $cur_page = uri_string(); // TODO account for sub-pages, only check first segment
+                if (strpos(uri_string(),'/') !== FALSE)
+                    $cur_page = substr(uri_string(),0, strpos(uri_string(),'/'));
+                else
+                    $cur_page = uri_string();
                 if ($cur_page == '')
                     $cur_page = 'home';
                 // Iterate through navbar links, set active class if URI matches current page

@@ -7,7 +7,8 @@
 
     $GLOBALS['js_load'] = array(
         'jquery-1.11.0.js',
-        'bootstrap.min.js'
+        'bootstrap.min.js',
+        'script.js'
     );
 ?>
 
