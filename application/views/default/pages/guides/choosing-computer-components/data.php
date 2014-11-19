@@ -6,6 +6,7 @@ $contents = array(
     'Processor',
     'Motherboard',
     'RAM',
+    'Storage',
     'Graphics Card',
     'Cooling',
     'Power Supply',

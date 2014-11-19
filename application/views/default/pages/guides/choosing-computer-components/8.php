@@ -4,20 +4,32 @@ $active = 8;
 include('data.php');
 include('header.php');
 
-$prev_page = $contents[6];
-$next_page = $contents[8];
-$prev_url = site_url('guides/'.$guide_uri.'/7');
-$next_url = site_url('guides/'.$guide_uri.'/9');
+$prev_page = $contents[$active-2];
+$next_page = $contents[$active];
+$prev_url = site_url('guides/'.$guide_uri.'/'.$active-1);
+$next_url = site_url('guides/'.$guide_uri.'/'.$active+1);
 ?>
     
-<h2>Case Sizes</h2>
+<h2>Picking a Compatible Power Supply</h2>
 <p>
-	Show what motherboard sizes fit into what size cases. Account for oversized graphics cards as well. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
+	Discuss how to know if a given PSU is compatible with the motherboard. Pin count, types of cables, etc. Explain wattage, how to estimate power usage, and what components use the most power. Usage can be calculated at o	http://www.extreme.outervision.com/psucalculatorlite.jsp. A general rule is to have a slightly stronger power supply than you need. You will most likely have your best performance with components that use 40 to 80 percent of the power supplies output. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
 </p>
 
-<h2>Picking the Best Look</h2>
+<h2>Major PSU Manufacturers</h2>
 <p>
-	Mention the various case styles there are to choose from, and their price ranges. Talk about any extra features to look for, such as integrated water cooilng/fans, front-panel USB ports, or LCD displays for monitoring hardware. Pellentesque augue risus, faucibus a blandit vitae, sagittis non odio. Integer mattis viverra vulputate. Etiam a risus id leo laoreet malesuada sed nec ligula. Sed ullamcorper dolor ac ligula tempus tincidunt. Pellentesque arcu libero, mattis quis ipsum sed, porta posuere lacus. Curabitur nibh odio, pharetra quis metus eget, scelerisque consectetur ipsum.
+	Introduce well-known manufacturers, and any differences between the brands. Corsair, Cooler Master, Thermaltake, EVGA, etc. Maecenas euismod, nulla id convallis aliquam, risus enim dignissim est, vel dapibus lorem massa eget mi. Donec convallis maximus leo, nec porta nisi blandit nec. Vestibulum sed blandit sapien. Fusce ut porta est, nec fermentum eros. Cras interdum placerat efficitur. Curabitur risus velit, porttitor in pretium congue, condimentum sed risus.
 </p>
+
+<h2>Efficiency Ratings</h2>
+<p>
+	Look for power supply with an 80 PLUS efficiency rating. This is not completely necessary, but it can save you money over time. The range of 80 PLUS efficiency is as follows.
+</p>
+<ul>
+	<li>80 PLUS</li>
+	<li>80 PLUS Bronze</li>
+	<li>80 PLUS Silver</li>
+	<li>80 PLUS Gold</li>
+	<li>80 PLUS Platinum</li>
+</ul>
 
 <?php include('footer.php'); ?>

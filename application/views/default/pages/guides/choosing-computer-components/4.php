@@ -4,10 +4,10 @@ $active = 4;
 include('data.php');
 include('header.php');
 
-$prev_page = $contents[2];
-$next_page = $contents[4];
-$prev_url = site_url('guides/'.$guide_uri.'/3');
-$next_url = site_url('guides/'.$guide_uri.'/5');
+$prev_page = $contents[$active-2];
+$next_page = $contents[$active];
+$prev_url = site_url('guides/'.$guide_uri.'/'.$active-1);
+$next_url = site_url('guides/'.$guide_uri.'/'.$active+1);
 ?>
     
 <h2>What is RAM?</h2>

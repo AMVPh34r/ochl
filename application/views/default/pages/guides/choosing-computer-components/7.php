@@ -4,32 +4,42 @@ $active = 7;
 include('data.php');
 include('header.php');
 
-$prev_page = $contents[5];
-$next_page = $contents[7];
-$prev_url = site_url('guides/'.$guide_uri.'/6');
-$next_url = site_url('guides/'.$guide_uri.'/8');
+$prev_page = $contents[$active-2];
+$next_page = $contents[$active];
+$prev_url = site_url('guides/'.$guide_uri.'/'.$active-1);
+$next_url = site_url('guides/'.$guide_uri.'/'.$active+1);
 ?>
     
-<h2>Picking a Compatible Power Supply</h2>
+<h2>Why is Cooling Important?</h2>
 <p>
-	Discuss how to know if a given PSU is compatible with the motherboard. Pin count, types of cables, etc. Explain wattage, how to estimate power usage, and what components use the most power. Usage can be calculated at o	http://www.extreme.outervision.com/psucalculatorlite.jsp. A general rule is to have a slightly stronger power supply than you need. You will most likely have your best performance with components that use 40 to 80 percent of the power supplies output. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
+	Explain the concept of CPU/GPU cooling, and why it's needed (cite standard temperatures for processors). Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
 </p>
 
-<h2>Major PSU Manufacturers</h2>
+<h2>CPU Cooling</h2>
 <p>
-	Introduce well-known manufacturers, and any differences between the brands. Corsair, Cooler Master, Thermaltake, EVGA, etc. Maecenas euismod, nulla id convallis aliquam, risus enim dignissim est, vel dapibus lorem massa eget mi. Donec convallis maximus leo, nec porta nisi blandit nec. Vestibulum sed blandit sapien. Fusce ut porta est, nec fermentum eros. Cras interdum placerat efficitur. Curabitur risus velit, porttitor in pretium congue, condimentum sed risus.
+	Cover methods of keeping the processor cool; heatsinks, liquid cooling, etc.
 </p>
 
-<h2>Efficiency Ratings</h2>
+<h3>Heatsinks</h3>
 <p>
-	Look for power supply with an 80 PLUS efficiency rating. This is not completely necessary, but it can save you money over time. The range of 80 PLUS efficiency is as follows.
+	This type of cooling is recommended for new PC builders, due to its simplicity. Discuss standard heatsink cooling systems, how to choose a heatsink, making sure it's compatible with the motherboard, etc.
+</p>
+
+<h3>Liquid Cooling</h3>
+<p>
+	Go over various liquid cooling methods, their advantages over heatsinks, how to set them up, choosing a brand, etc.
 </p>
 <ul>
-	<li>80 PLUS</li>
-	<li>80 PLUS Bronze</li>
-	<li>80 PLUS Silver</li>
-	<li>80 PLUS Gold</li>
-	<li>80 PLUS Platinum</li>
+	<li>Internal systems - Description and dis/advantages</li>
+	<li>External systems - Description and dis/advantages</li>
+	<li>Integrated systems - Description and dis/advantages</li>
 </ul>
+
+<hr />
+
+<h2>Case Cooling</h2>
+<p>
+	Go over how case cooling differs from CPU cooling, standard fan placement, etc. Explain fan dimensions and how they fit into the case.
+</p>
 
 <?php include('footer.php'); ?>

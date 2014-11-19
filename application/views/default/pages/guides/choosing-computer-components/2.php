@@ -4,10 +4,10 @@ $active = 2;
 include('data.php');
 include('header.php');
 
-$prev_page = $contents[0];
-$next_page = $contents[2];
-$prev_url = site_url('guides/'.$guide_uri.'/1');
-$next_url = site_url('guides/'.$guide_uri.'/3');
+$prev_page = $contents[$active-2];
+$next_page = $contents[$active];
+$prev_url = site_url('guides/'.$guide_uri.'/'.$active-1);
+$next_url = site_url('guides/'.$guide_uri.'/'.$active+1);
 ?>
 
 <h2>What is the Processor?</h2>
