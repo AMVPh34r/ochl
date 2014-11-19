@@ -7,14 +7,30 @@ body {
     padding-top: 50px; /* Padding for .navbar-fixed-top.*/
 }
 
-#main-nav {
-    transition: box-shadow linear .25s;
-}
+@media (min-width: 767px) {
+    #main-nav {
+        transition: box-shadow linear .25s, height linear .25s;
+        height: 75px;
+    }
 
-#main-nav.affix {
-    top:0;
-    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
-    transition: box-shadow linear .25s;
+    #main-nav .navbar-nav > li > a, #main-nav .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 75px;
+        transition: line-height linear .25s, padding linear .25s;
+    }
+
+    #main-nav.affix {
+        top:0;
+        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
+        height: 50px;
+    }
+
+    #main-nav.affix .navbar-nav > li > a, #main-nav.affix .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 20px;
+    }
 }
 
 .img-portfolio {
