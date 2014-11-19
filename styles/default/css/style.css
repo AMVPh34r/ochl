@@ -113,6 +113,26 @@ header.carousel .fill .loader {
     width:100%;
 }
 
+/* Guide page styles */
+.guide-img {
+    
+}
+
+.guide-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.guide-img .img-caption {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px;
+    font-size: 0.75em;
+}
+
 /* 404 Page Styles */
 .error-404 {
     font-size: 100px;
