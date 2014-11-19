@@ -11,6 +11,15 @@ include('header.php');
 </p> 
 
 <h2>Picking a Brand</h2>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/cpu-intel-amd.png', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			Left: Intel's socket-based CPU type. Right: AMD's pin-based CPU.<br />
+			Photo credit: <?php echo anchor('http://pcadvisor.co.uk', 'pcadvisor.co.uk', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 <p>
 	There are two main manufacturers of CPUs: Intel and Advanced Micro Devices (AMD). Which is best for you depends on what kind of PC you're looking to build, and what your priorities are. Even within the two brands, there is a huge variety of CPU models, but a simple general rule is that Intel processors are more powerful at a higher price, and AMD processors, while overall less powerful, are more fairly priced. If money is less of a hinderance and you want the most powerful computer, Intel is the way to go. If you care more about saving money or don't need a blazing fast machine, AMD will suit you just fine.
 </p>

@@ -6,8 +6,16 @@ include('header.php');
 ?>
     
 <h2>Picking a Compatible Power Supply</h2>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/psu.png', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			Photo credit: <?php echo anchor('http://atxpowersupplies.com', 'atxpowersupplies.com', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 <p>
-	Discuss how to know if a given PSU is compatible with the motherboard. Pin count, types of cables, etc. Explain wattage, how to estimate power usage, and what components use the most power. Usage can be calculated at o	http://www.extreme.outervision.com/psucalculatorlite.jsp. A general rule is to have a slightly stronger power supply than you need. You will most likely have your best performance with components that use 40 to 80 percent of the power supplies output. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
+	Discuss how to know if a given PSU is compatible with the motherboard. Pin count, types of cables, etc. Explain wattage, how to estimate power usage, and what components use the most power. Usage can be calculated at http://www.extreme.outervision.com/psucalculatorlite.jsp. A general rule is to have a slightly stronger power supply than you need. You will most likely have your best performance with components that use 40 to 80 percent of the power supplies output. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
 </p>
 
 <h2>Major PSU Manufacturers</h2>

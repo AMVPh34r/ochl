@@ -11,6 +11,15 @@ include('header.php');
 </p>
 
 <h2>Picking a Size</h2>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/motherboard-sizes.png', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			A comparison of various motherboard dimensions.<br />
+			Photo credit: <?php echo anchor('http://howtogeek.com', 'howtogeek.com', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 <p>
 	Discuss the different motherboard sizes (ATX, Extended/ini/micro ATX) and the advantages and disadvantages of each. Point out compatibility with different case sizes. Curabitur scelerisque ipsum ut tellus blandit consequat. Morbi blandit sollicitudin elit eget molestie. Vivamus tincidunt augue at odio blandit, a facilisis massa mattis. Aenean consectetur justo ut sem pulvinar cursus.
 </p>

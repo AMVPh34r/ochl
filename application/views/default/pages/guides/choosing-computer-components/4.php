@@ -6,6 +6,15 @@ include('header.php');
 ?>
     
 <h2>What is RAM?</h2>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/RAM.jpg', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			A stick of DDR3 RAM.<br />
+			Photo credit: <?php echo anchor('http://eteknix.com', 'eteknix.com', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 <p>
 	Go over what the purpose of RAM is and how the computer uses it. Discuss what having more RAM allows you to do, as well as faster memory. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
 </p>

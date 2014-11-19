@@ -19,6 +19,15 @@ include('header.php');
 <p>
 	This type of cooling is recommended for new PC builders, due to its simplicity. Discuss standard heatsink cooling systems, how to choose a heatsink, making sure it's compatible with the motherboard, etc.
 </p>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/heatsink.png', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			A diagram of how a heatsink disperses heat.<br />
+			Photo credit: <?php echo anchor('http://wikipedia.org', 'wikipedia.org', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 
 <h3>Liquid Cooling</h3>
 <p>
@@ -29,6 +38,15 @@ include('header.php');
 	<li>External systems - Description and dis/advantages</li>
 	<li>Integrated systems - Description and dis/advantages</li>
 </ul>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 guide-img">
+		<?php echo img(array('src'=>'files/img/guides/choosing-computer-components/water-cooling.png', 'class'=>'img-responsive')); ?>
+		<div class="img-caption">
+			A standard external liquid cooling diagram.<br />
+			Photo credit: <?php echo anchor('http://pantherproducts.co.uk', 'pantherproducts.co.uk', array('target'=>'_blank')); ?>
+		</div>
+	</div>
+</div>
 
 <hr />
 
