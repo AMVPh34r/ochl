@@ -1,3 +1,20 @@
+<?php
+if (is_file(__DIR__.'/'.($active-1).'.php')) {
+    $prev_page = $contents[$active-2];
+    $prev_url = site_url('guides/'.$guide_uri.'/'.($active-1));
+} else {
+    $prev_page = NULL;
+    $prev_url = NULL;
+}
+if (is_file(__DIR__.'/'.($active+1).'.php')) {
+    $next_page = $contents[$active];
+    $next_url = site_url('guides/'.$guide_uri.'/'.($active+1));
+} else {
+    $next_page = NULL;
+    $next_url = NULL;
+}
+?>
+
 <!-- Page Content -->
 <div class="container">
     <!-- Page Heading/Breadcrumbs -->

@@ -1,13 +1,8 @@
 <?php
-$active = 4;
+$active = str_replace('.php', '', substr(__FILE__, strrpos(__FILE__, '/')+1));
 
 include('data.php');
 include('header.php');
-
-$prev_page = $contents[$active-2];
-$next_page = $contents[$active];
-$prev_url = site_url('guides/'.$guide_uri.'/'.($active-1));
-$next_url = site_url('guides/'.$guide_uri.'/'.($active+1));
 ?>
     
 <h2>What is RAM?</h2>

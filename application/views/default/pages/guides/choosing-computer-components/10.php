@@ -1,13 +1,8 @@
 <?php
-$active = 10;
+$active = str_replace('.php', '', substr(__FILE__, strrpos(__FILE__, '/')+1));
 
 include('data.php');
 include('header.php');
-
-$prev_page = $contents[$active-2];
-$next_page = NULL;
-$prev_url = site_url('guides/'.$guide_uri.'/'.($active-1));
-$next_url = NULL;
 ?>
     
 <h2>Prehipherals</h2>
