@@ -43,6 +43,8 @@ $route['404_override'] = 'error/show/404';
 $route['error/(:any)'] = 'error/show/$1';
 $route['blog'] = 'blog';
 $route['blog/(:num)'] = 'blog/show/$1';
+$route['guides'] = 'guide';
+$route['guides/(:any)'] = 'guide/show/$1';
 $route['(:any)'] = 'page/show/$1';
 
 

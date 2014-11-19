@@ -7,6 +7,32 @@ body {
     padding-top: 50px; /* Padding for .navbar-fixed-top.*/
 }
 
+@media (min-width: 767px) {
+    #main-nav {
+        transition: box-shadow linear .25s, height linear .25s;
+        height: 75px;
+    }
+
+    #main-nav .navbar-nav > li > a, #main-nav .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 75px;
+        transition: line-height linear .25s, padding linear .25s;
+    }
+
+    #main-nav.affix {
+        top:0;
+        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
+        height: 50px;
+    }
+
+    #main-nav.affix .navbar-nav > li > a, #main-nav.affix .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 20px;
+    }
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -85,6 +111,29 @@ header.carousel .fill .loader {
     z-index:5;
     background-color: #fff;
     width:100%;
+}
+
+/* Guide page styles */
+.guide-img {
+    
+}
+
+.guide-img img {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-top: 1px solid #888;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.guide-img .img-caption {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px;
+    font-size: 0.75em;
 }
 
 /* 404 Page Styles */
