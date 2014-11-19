@@ -22,7 +22,7 @@ $next_url = site_url('guides/'.$guide_uri.'/7');
 
 <h3>Heatsinks</h3>
 <p>
-	Discuss standard heatsink cooling systems, how to choose a heatsink, making sure it's compatible with the motherboard, etc.
+	This type of cooling is recommended for new PC builders, due to its simplicity. Discuss standard heatsink cooling systems, how to choose a heatsink, making sure it's compatible with the motherboard, etc.
 </p>
 
 <h3>Liquid Cooling</h3>
@@ -39,7 +39,7 @@ $next_url = site_url('guides/'.$guide_uri.'/7');
 
 <h2>Case Cooling</h2>
 <p>
-	Go over how case cooling differs from CPU cooling, standard fan placement, etc.
+	Go over how case cooling differs from CPU cooling, standard fan placement, etc. Explain fan dimensions and how they fit into the case.
 </p>
 
 <?php include('footer.php'); ?>
