@@ -20,6 +20,12 @@ body {
         transition: line-height linear .25s, padding linear .25s;
     }
 
+    #main-nav .navbar-header img.nav-logo {
+        height: 100%;
+        margin-top: 10px;
+        transition: margin linear .25s;
+    }
+
     #main-nav.affix {
         top:0;
         box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
@@ -30,6 +36,11 @@ body {
         padding-top: 15px;
         padding-bottom: 15px;
         line-height: 20px;
+    }
+
+    #main-nav.affix .navbar-header img.nav-logo {
+        margin: 0;
+        padding: 0;
     }
 }
 

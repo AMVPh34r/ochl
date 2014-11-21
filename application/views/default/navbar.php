@@ -22,6 +22,7 @@ $navbar_links = array(
                 <span class="icon-bar"></span>
             </button>
             <?php echo anchor('home', 'OCHL', array('class'=>'navbar-brand')); ?>
+            <?php /*echo anchor('home', img(array('src'=>'files/img/static/logo.png','class'=>'img-responsive nav-logo')), array('class'=>'navbar-brand'));*/ ?>
         </div>
         <!-- Nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
