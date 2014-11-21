@@ -10,6 +10,8 @@ body {
 @media (min-width: 767px) {
     #main-nav {
         transition: box-shadow linear .25s, height linear .25s;
+        -webkit-transition: box-shadow linear .25s, height linear .25s;
+        -moz-transition: box-shadow linear .25s, height linear .25s;
         height: 75px;
     }
 
@@ -18,12 +20,16 @@ body {
         padding-bottom: 0;
         line-height: 75px;
         transition: line-height linear .25s, padding linear .25s;
+        -webkit-transition: line-height linear .25s, padding linear .25s;
+        -moz-transition: line-height linear .25s, padding linear .25s;
     }
 
     #main-nav .navbar-header img.nav-logo {
         height: 100%;
         margin-top: 10px;
         transition: margin linear .25s;
+        -webkit-transition: margin linear .25s;
+        -moz-transition: margin linear .25s;
     }
 
     #main-nav.affix {
@@ -134,7 +140,11 @@ header.carousel .fill .loader {
     border-right: 1px solid #888;
     border-top: 1px solid #888;
     border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
 }
 
 .guide-img .img-caption {
@@ -142,7 +152,11 @@ header.carousel .fill .loader {
     border-right: 1px solid #888;
     border-bottom: 1px solid #888;
     border-bottom-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
     padding: 3px;
     font-size: 0.75em;
 }
