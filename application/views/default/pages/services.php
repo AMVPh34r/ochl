@@ -7,7 +7,7 @@
                 <!-- <small>Subheading</small> -->
             </h1>
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a>
+                <li><?php echo anchor('home', 'Home'); ?>
                 </li>
                 <li class="active">Services</li>
             </ol>
