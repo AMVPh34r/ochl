@@ -5,7 +5,7 @@ include('data.php');
 include('header.php');
 ?>
     
-<h2>What is the Graphics Card?</h2>
+<!-- <h2>What is the Graphics Card?</h2>
 <p>
 	Explain the purpose of the GPU, how it affects performance for different activities, etc. How does it differ from the CPU? What aspects of the computer uitlize the GPU? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.
 </p>
@@ -33,7 +33,7 @@ include('header.php');
 <h2>Running with Multiple GPUs</h2>
 <p>
 	Introduce the idea of running multiple GPUs, SLI/CrossFire. Describe how this affects performance and support for multiple monitors. What are the advantages/disadvantages? Mauris fermentum porttitor venenatis. Pellentesque eleifend nisi sapien, nec euismod nulla aliquam nec. Morbi non lorem ipsum. Morbi sit amet orci ultricies, rutrum arcu sit amet, tempus lorem. Quisque scelerisque hendrerit arcu fermentum euismod. Fusce lacinia turpis lacus, id finibus justo vehicula a. Pellentesque feugiat turpis eget ligula efficitur cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-</p>
+</p> -->
 
 
 <hr />
