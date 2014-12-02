@@ -58,7 +58,7 @@
                     <p>Our weekly meetings are well suited for both students who are new to hardware, and veterans. We go over the basics of what hardware does, and talk about new parts that are on the market.</p>
                 </div>
                 <div class="tab-pane fade" id="service-three">
-                    <p>We will have a guest speaker when ever we can. We have scheduled for representatives from Intel to come and speak about their new products.</p>
+                    <p>We will have a guest speaker whenever we can. We have scheduled for representatives from Intel to come and speak about their new products.</p>
                 </div>
                 <div class="tab-pane fade" id="service-four">
                     <p>During these sessions we will either be building a computer in person, or will be building one online. The goal of in person builds is to help our new members build their machines, and the purpose of the online builds are to see who can build the best PC in a given budget.</p>

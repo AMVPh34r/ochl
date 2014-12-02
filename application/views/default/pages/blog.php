@@ -27,7 +27,7 @@ $posts = array(
         'date' => "September 19, 2014",
         'time' => "10:27 AM",
         'image' => '',//"http://placehold.it/900x300",
-        'text' => "We had our first meeting Wednesday and it was a great success, thanks to all that attended. We explained in greater detail what out purpose is and what we will be doing over the course of the semester, and answered some questions. We are currently working on our logo and website, so expect to hear more about that in the future."
+        'text' => "We had our first meeting Wednesday and it was a great success, thanks to all that attended. We explained in greater detail what our purpose is and what we will be doing over the course of the semester, in addition to answering a few questions. We are currently working on our logo and website, so expect to hear more about that in the future."
     )
 );
 ?>
@@ -65,12 +65,12 @@ $posts = array(
             }
             ?>
             <!-- Pager -->
-            <ul class="pager">
+            <!-- <ul class="pager">
                 <li class="previous">
                     <a href="#">&larr; Older</a>
                 </li>
                 <li class="next">
                     <a href="#">Newer &rarr;</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>

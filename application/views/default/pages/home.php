@@ -46,11 +46,11 @@
             <h2 class="page-header">Welcome to the Organization for Computer Hardware Learning</h2>
         </div>
         <div class="col-md-6">
-        <p>The Organization for Computer Hardware Learning is dedicated to educating those interested in learning more about computer hardware. Our aim is to attract people with any passing interest in computers, and work with them to help them understand just what hardware is and how it contributes to a working machine.</p>
+        <p>The Organization for Computer Hardware Learning is dedicated to educating those interested in learning more about computer hardware. Our aim is to attract people with any interest in computers, and work with them to help them understand just what hardware is and how it contributes to a working machine.</p>
             <ul>
                 <li>Weekly meetings as a group, providing both tutorials for all group members on interacting with hardware and helping them learn more.</li>
                 <li>Regular special events which include guest speakers from companies such as Intel and Nvidia.</li>
-                <li>“Build Sessions” in which members are tasked with building a computer and getting it running successfully.</li>
+                <li>“Build Sessions” in which members are tasked with building a computer and getting it to run successfully.</li>
                 <li>A website offering detailed information about our organization, as well as regular news updates regarding the latest hardware.</li>
             </ul>
             <p></p>

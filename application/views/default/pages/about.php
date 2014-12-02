@@ -22,7 +22,7 @@
         </div>
         <div class="col-md-6">
             <h2>About Us</h2>
-            <p>The Organization for Computer Hardware Learning is dedicated to educating those interested in learning more about computer hardware. Our aim is to attract people with any passing interest in computers, and work with them to help them understand just what hardware is and how it contributes to a working machine. Hardware is a huge component of what makes computers what they are, and our belief is that anyone who will be working with computers in their day to day lives should understand not only how to interact with them on a software level, but how they work on a hardware level as well.</p>
+            <p>Hardware is a huge component of what makes computers what they are, and our belief is that anyone who will be working with computers in their day to day lives should understand not only how to interact with them on a software level, but how they work on a hardware level as well.</p>
             <p>OCHL started as a school club on the campus of the University of North Carolina at Charlotte. Since then we have expanded to span across multiple schools and have even recieved sponsorships from reputable hardware companies like Intel. Founded by William McKinley and Alex Schaeffer, our organization invites you to join us and help us bring knowledge of computer hardware to the world.</p>
         </div>
     </div>
