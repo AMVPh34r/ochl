@@ -10,7 +10,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill"><!-- <div class="loader vert-align">Loading...</div> --><?php echo img(array('src'=>'files/img/static/hardware_img_1.jpg', 'class'=>'img-responsive vert-align')); ?></div>
+            <div class="fill"><?php echo img(array('src'=>'files/img/static/hardware_img_1.jpg', 'class'=>'img-responsive vert-align')); ?></div>
             <div class="carousel-caption">
                 <!-- <h2>Caption 1</h2> -->
             </div>

@@ -3,6 +3,24 @@
 // TODO integrate with database
 $posts = array(
     array(
+        'id' => '6',
+        'title' => "Website Launch",
+        'author' => "Alex Schaeffer",
+        'date' => "November 7, 2014",
+        'time' => "4:59 PM",
+        'image' => 'files/img/blog/6.png',//"http://placehold.it/900x300",
+        'text' => "Big news this week! Our website has officially launched for the general public. Currently the site offers general information about our organization, as well as the home of our new blog, and some helpful tips and videos to get you started learning about computer hardware. We also have a contact form set up if you wish to get in contact with us with any questions, or if you're interested in joining our group."
+    ),
+    array(
+        'id' => '5',
+        'title' => "Website",
+        'author' => "William McKinley",
+        'date' => "October 31, 2014",
+        'time' => "4:03 PM",
+        'image' => '',//"http://placehold.it/900x300",
+        'text' => "Hello OCHL members and fans. We are excited to announce that we are currently working on a new, improved website. Because we have been expanding off campus, we felt it was necessary to make a change. It will be released this Wednesday."
+    ),
+    array(
         'id' => '4',
         'title' => "Moving Off Campus",
         'author' => "William McKinley",
@@ -35,7 +53,7 @@ $posts = array(
         'author' => "Alex Schaeffer",
         'date' => "September 17, 2014",
         'time' => "10:44 AM",
-        'image' => "1.png",
+        'image' => "files/img/blog/1.png",
         'text' => "Welcome to the home of the Organization for Computer Hardware Learning!<p>If you're reading this, you are likely a student of UNC Charlotte, and have an interest in learning more about computer hardware, and our organization aims to provide an environment for you to do just that. If you’d like to learn more about us or get in contact with us, click the \"About Us\" link.</p>"
     )
 );
