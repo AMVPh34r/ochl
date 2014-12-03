@@ -1,3 +1,4 @@
 # Ignore custom scripts
 *.sh
+*.py
 
