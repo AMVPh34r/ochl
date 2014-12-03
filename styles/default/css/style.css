@@ -7,43 +7,9 @@ body {
     padding-top: 50px; /* Padding for .navbar-fixed-top.*/
 }
 
-@media (min-width: 767px) {
-    #main-nav {
-        transition: box-shadow linear .25s, height linear .25s;
-        height: 75px;
-    }
-
-    #main-nav .navbar-nav > li > a, #main-nav .navbar-brand {
-        padding-top: 0;
-        padding-bottom: 0;
-        line-height: 75px;
-        transition: line-height linear .25s, padding linear .25s;
-    }
-
-    #main-nav .navbar-header img.nav-logo {
-        height: 100%;
-        margin-top: 10px;
-        transition: margin linear .25s;
-    }
-
-    #main-nav.affix {
-        top:0;
-        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
-        height: 50px;
-    }
-
-    #main-nav.affix .navbar-nav > li > a, #main-nav.affix .navbar-brand {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        line-height: 20px;
-    }
-
-    #main-nav.affix .navbar-header img.nav-logo {
-        margin: 0;
-        padding: 0;
-    }
-}
-
+/*
+    General styles
+========================*/
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -58,6 +24,31 @@ body {
     transform: translateY(-50%);
 }
 
+
+/*
+    Responsive styles
+========================*/
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+/*
+    Parallax scrolling
+========================*/
 .parallax {
   perspective: 300px;
   height: 100vh;
@@ -90,7 +81,51 @@ body {
     transform: translateZ(-300px) scale(2);
 }
 
-/* Home Page Carousel */
+
+/*
+    Dynamic navbar
+========================*/
+@media (min-width: 767px) {
+    #main-nav {
+        transition: box-shadow linear .25s, height linear .25s;
+        height: 75px;
+    }
+
+    #main-nav .navbar-nav > li > a, #main-nav .navbar-header > a.navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 75px;
+        transition: line-height linear .25s, padding linear .25s;
+    }
+
+    #main-nav .navbar-header img.nav-logo {
+        height: 100%;
+        margin-top: 10px;
+        transition: margin linear .25s;
+    }
+
+    #main-nav.affix {
+        top:0;
+        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.6);
+        height: 50px;
+    }
+
+    #main-nav.affix .navbar-nav > li > a, #main-nav.affix .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 20px;
+    }
+
+    #main-nav.affix .navbar-header img.nav-logo {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+/*
+    Homepage styles
+========================*/
 header.carousel {
     height: 50%;
     /*z-index:-1;*/
@@ -128,8 +163,11 @@ header.carousel .fill .loader {
     width:100%;
 }
 
-/* Guide page styles */
-.guide-img {
+
+/*
+    Guide styles
+========================*/
+.captioned-img, .guide-img {
     margin-bottom: 10px;
 }
 
@@ -159,22 +197,4 @@ header.carousel .fill .loader {
 /* Footer Styles */
 footer {
     margin: 50px 0;
-}
-
-/* Responsive Styles */
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
-    header.carousel .carousel {
-        height: 70%;
-    }
 }
