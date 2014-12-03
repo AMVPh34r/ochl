@@ -28,6 +28,15 @@ $posts = array(
         'time' => "10:27 AM",
         'image' => '',//"http://placehold.it/900x300",
         'text' => "We had our first meeting Wednesday and it was a great success, thanks to all that attended. We explained in greater detail what our purpose is and what we will be doing over the course of the semester, in addition to answering a few questions. We are currently working on our logo and website, so expect to hear more about that in the future."
+    ),
+    array(
+        'id' => '1',
+        'title' => "Welcome to OCHL!",
+        'author' => "Alex Schaeffer",
+        'date' => "September 17, 2014",
+        'time' => "10:44 AM",
+        'image' => "1.png",
+        'text' => "Welcome to the home of the Organization for Computer Hardware Learning!<p>If you're reading this, you are likely a student of UNC Charlotte, and have an interest in learning more about computer hardware, and our organization aims to provide an environment for you to do just that. If you’d like to learn more about us or get in contact with us, click the \"About Us\" link.</p>"
     )
 );
 ?>
