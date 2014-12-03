@@ -17,9 +17,11 @@
 
     <!-- Image Header -->
     <div class="row">
-        <div class="col-lg-12">
-            <!-- <img class="img-responsive" src="http://placehold.it/1200x300" alt=""> -->
+        <div class="col-lg-12 captioned-img">
             <?php echo img(array('src'=>'files/img/static/hitchhikers_lg.png', 'class'=>'img-responsive')); ?>
+            <div class="img-caption">
+                Organization members learning about robotics hardware.
+            </div>
         </div>
     </div>
     <!-- /.row -->
