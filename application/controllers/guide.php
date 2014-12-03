@@ -5,6 +5,8 @@ class Guide extends CI_Controller {
 	public function index() {
 		$data['page_title'] = "Guides";
 		load_template('guides/home', $data);
+		// TEMP redirect to only existing guide for now
+		redirect('guides/choosing-computer-components');
 	}
 
 	public function show($guide, $page=1) {
